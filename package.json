@@ -1,0 +1,17 @@
+{
+  "name": "git-light",
+  "version": "1.0.0",
+  "description": "En enkel git-etterligning for Node.js",
+  "bin": {"git-light": "./src/index.js"},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "git-light": "./src/index.js"
+  },
+  "keywords": ["git", "git-light", "version-control"],
+  "author": "Ole Martin Snoen",
+  "license": "MIT",
+  "type": "module"
+}
