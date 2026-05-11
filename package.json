@@ -2,16 +2,23 @@
   "name": "git-light",
   "version": "1.0.0",
   "description": "En enkel git-etterligning for Node.js",
-  "bin": {"git-light": "./src/index.js"},
+  "bin": {
+    "git-light": "src/index.js"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git-light": "git-light"
   },
-  "bin": {
-    "git-light": "./src/index.js"
+  "keywords": [
+    "git",
+    "git-light",
+    "version-control"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olemart1n/git-light"
   },
-  "keywords": ["git", "git-light", "version-control"],
-  "author": "Ole Martin Snoen",
+  "author": "Ole MS",
   "license": "MIT",
   "type": "module"
 }
