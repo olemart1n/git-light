@@ -1,6 +1,6 @@
 {
   "name": "git-light",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "En enkel git-etterligning for Node.js",
   "bin": {
     "git-light": "src/index.js"
