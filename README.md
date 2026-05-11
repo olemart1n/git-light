@@ -12,7 +12,7 @@ ___
 INSTALL ON YOUR SYSTEM
 (REQUIRES NODE).
 
-this (shebang)[https://alexewerlof.medium.com/node-shebang-e1d4b02f731d] tells the system that the file only works with node ``` #!/usr/bin/env node ```
+this [shebang](https://alexewerlof.medium.com/node-shebang-e1d4b02f731d) tells the system that the file only works with node ``` #!/usr/bin/env node ```
 ```
 npm init -y
 npm link
