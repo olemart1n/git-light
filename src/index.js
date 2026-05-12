@@ -2,6 +2,7 @@
 import * as fs from "fs";
 import save from "./save/index.js";
 import { showLog } from "./show-log.js";
+import diff from "./diff.js";
 import restore from "./restore/index.js";
 const command = process.argv[2];
 const commandMsg = process.argv[3];
@@ -9,7 +10,7 @@ const commandMsg = process.argv[3];
 if (command === "init") init();
 if (command === "save") save(commandMsg);
 if (command === "restore") restore(commandMsg);
-if (command === "diff") console.log("diff");
+if (command === "diff") diff();
 if (command === "log") showLog();
 
 function init() {
