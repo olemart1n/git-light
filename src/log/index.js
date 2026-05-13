@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-export function showLog() {
+export default function showLog() {
   const directoryPath = path.join(".git-light", "commits");
 
   const dir = fs.readdirSync(directoryPath);

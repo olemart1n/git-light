@@ -1,8 +1,8 @@
-import { collectFiles } from "./save/collect-files.js";
-import { loadPreviousCommit } from "./save/load-previous-commit.js";
-import { detectDeletedFiles } from "./save/detect-deleted-files.js";
-import { getFileMeta } from "./save/get-file-meta.js";
-import { analyzeFile } from "./save/analyze-file.js";
+import { collectFiles } from "../save/collect-files.js";
+import { loadPreviousCommit } from "../save/load-previous-commit.js";
+import { detectDeletedFiles } from "../save/detect-deleted-files.js";
+import { getFileMeta } from "../save/get-file-meta.js";
+import { analyzeFile } from "../save/analyze-file.js";
 export default function diff() {
   const previousCommit = loadPreviousCommit();
   const currentFiles = collectFiles(".");
